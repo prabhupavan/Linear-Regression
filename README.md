@@ -8,8 +8,20 @@ can apply to a dataset to model the relationships between features and labels.
 
 Linear regression performs the task to predict a dependent variable value (y) based on a given independent variable (x). So, this regression technique finds out a linear relationship between x (input) and y(output). Hence, the name is Linear Regression.
 
-![image](https://user-images.githubusercontent.com/87564129/193787952-1b2a38d6-9e22-440f-96ce-7e1d7f77ea4a.png)
+Equation of Simple Linear Regression, where bo is the intercept, b1 is coefficient or slope, x is the independent variable and y is the dependent variable.
 
-When training the model – it fits the best line to predict the value of y for a given value of x. The model gets the best regression fit line by finding the best θ1 and θ2 values.
-θ1: intercept
-θ2: coefficient of x
+![image](https://user-images.githubusercontent.com/87564129/193789418-1ae20c58-4543-482d-83dc-e5f5c4abf152.png)
+
+
+Equation of Multiple Linear Regression, where bo is the intercept, b1,b2,b3,b4…,bn are coefficients or slopes of the independent variables x1,x2,x3,x4…,xn and y is the dependent variable.
+
+![image](https://user-images.githubusercontent.com/87564129/193789551-37a98722-76b2-4fd8-a2d3-97dc6cd48e0c.png)
+
+A Linear Regression model’s main aim is to find the best fit linear line and the optimal values of intercept and coefficients such that the error is minimized.
+
+![image](https://user-images.githubusercontent.com/87564129/193789742-10c6db56-8567-4f9b-b190-7cfa1f34bf21.png)
+
+The vertical distance between the data point and the regression line is known as error or residual. Each data point has one residual and the sum of all the differences is known as the Sum of Residuals/Errors.
+
+## Methods Of model evaluation : 
+
