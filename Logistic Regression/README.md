@@ -14,7 +14,7 @@ The logistic function, also called the sigmoid function was developed by statist
 
 ![image](https://user-images.githubusercontent.com/87564129/193797218-95b4b458-e16f-4443-b2f9-9089a4fa015a.png)
 
-![image](https://user-images.githubusercontent.com/87564129/193797295-5092f5cf-4cac-4cf4-98d4-ac6c5b97ea95.png)
+![image](https://user-images.githubusercontent.com/87564129/193798562-3dc1606b-87b7-4aa6-9901-3ba1c99e6a84.png)
 
 ### Decision Boundary
 
