@@ -25,5 +25,6 @@ The vertical distance between the data point and the regression line is known as
 
 ## Methods Of model evaluation : 
 
-### 1. R squared or Coefficient of Determination: Ratio of variation to the Total Variation. The value of R squared lies between 0 to 1, the value closer to 1 the better the model.
+### 1. R squared or Coefficient of Determination: 
+Ratio of variation to the Total Variation. The value of R squared lies between 0 to 1, the value closer to 1 the better the model.
 ![image](https://user-images.githubusercontent.com/87564129/193790577-1cfe2de1-e5bd-4ad1-b9d1-5b0d53386296.png)
