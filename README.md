@@ -27,4 +27,22 @@ The vertical distance between the data point and the regression line is known as
 
 ### 1. R squared or Coefficient of Determination: 
 Ratio of variation to the Total Variation. The value of R squared lies between 0 to 1, the value closer to 1 the better the model.
+
 ![image](https://user-images.githubusercontent.com/87564129/193790577-1cfe2de1-e5bd-4ad1-b9d1-5b0d53386296.png)
+
+
+### 2. Adjusted R squared: 
+It is the improvement to R squared. The problem/drawback with R2 is that as the features increase, the value of R2 also increases which gives the illusion of a good model. So the Adjusted R2 solves the drawback of R2. It only considers the features which are important for the model and shows the real improvement of the model.
+
+![image](https://user-images.githubusercontent.com/87564129/193790984-0bb4a47b-6d93-41f3-86da-3197262b60b5.png)
+
+### 3. Mean Squared Error (MSE):
+Mean Squared Error is the mean of the squared difference of actual vs predicted values.
+
+![image](https://user-images.githubusercontent.com/87564129/193791198-7cbb3e8a-a943-415b-8ea8-b56f51b980e7.png)
+
+### 4. Root Mean Squared Error (RMSE): 
+It is the root of MSE i.e Root of the mean difference of Actual and Predicted values. RMSE penalizes the large errors whereas MSE doesn’t.
+
+![image](https://user-images.githubusercontent.com/87564129/193791305-de5c46a2-3250-4fb3-a76d-5720f5e60605.png)
+
