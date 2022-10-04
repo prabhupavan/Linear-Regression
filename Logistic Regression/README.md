@@ -16,3 +16,17 @@ The logistic function, also called the sigmoid function was developed by statist
 
 ![image](https://user-images.githubusercontent.com/87564129/193797295-5092f5cf-4cac-4cf4-98d4-ac6c5b97ea95.png)
 
+### Decision Boundary
+
+We expect our classifier to give us a set of outputs or classes based on probability when we pass the inputs through a prediction function and returns a probability score between 0 and 1.
+
+![image](https://user-images.githubusercontent.com/87564129/193797731-dff77991-b02b-4237-b693-695b7f54cc93.png)
+
+As shown in the above graph we have chosen the threshold as 0.5, if the prediction function returned a value of 0.7 then we would classify this observation as Class 1. If our prediction returned a value of 0.2 then we would classify the observation as Class 2.
+
+### Cost Function
+
+The cost function represents optimization objective i.e. we create a cost function and minimize it so that we can develop an accurate model with minimum error.
+If we try to use the cost function of the linear regression in ‘Logistic Regression’ then it would be of no use as it would end up being a non-convex function with many local minimums, in which it would be very difficult to minimize the cost value and find the global minimum.
+
+![image](https://user-images.githubusercontent.com/87564129/193798326-a3a205c0-d0ff-4516-8db7-acc2a36358a7.png)
