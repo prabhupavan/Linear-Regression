@@ -17,4 +17,7 @@ classifier.
 
 Here, we are going to build an SVM classifier by using scikit-learn. Scikit-learn library has the sklearn.svm module and provides sklearn.svm.svc for classification.
 
-### SVM’s way to find the best line
+### SVM’s way to find the best line:
+According to the SVM algorithm we find the points closest to the line from both the classes.These points are called support vectors. Now, we compute the distance between the line and the support vectors. This distance is called the margin. Our goal is to maximize the margin. The hyperplane for which the margin is maximum is the optimal hyperplane.
+
+![image](https://user-images.githubusercontent.com/87564129/195622445-a8b54478-7dd4-4fed-851a-8b91bc1d1ed2.png)
