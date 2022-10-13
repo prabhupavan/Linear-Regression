@@ -8,4 +8,5 @@ of a particular coordinate. Here n would be the features we would have.
 
 At first approximation what SVMs do is to find a separating line(or hyperplane) between data of two classes. SVM is an algorithm that takes the data as an input and outputs a line that separates those classes if possible.
 
-https://miro.medium.com/max/640/1*AMR3v-jCvUMXPUtQskzxmQ.png
+![image](https://user-images.githubusercontent.com/87564129/195621203-e16bdbfc-a89c-465d-80c7-09a3d41ecff7.png)
+
