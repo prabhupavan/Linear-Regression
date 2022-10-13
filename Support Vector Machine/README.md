@@ -20,4 +20,4 @@ Here, we are going to build an SVM classifier by using scikit-learn. Scikit-lear
 ### SVM’s way to find the best line:
 According to the SVM algorithm we find the points closest to the line from both the classes.These points are called support vectors. Now, we compute the distance between the line and the support vectors. This distance is called the margin. Our goal is to maximize the margin. The hyperplane for which the margin is maximum is the optimal hyperplane.
 
-![image](https://user-images.githubusercontent.com/87564129/195622711-57020fc1-ab75-4a9e-a371-5a7cc9742452.png)
+![image](https://user-images.githubusercontent.com/87564129/195622815-3cd025a9-c567-42c9-9af3-6b9dcc17790c.png)
