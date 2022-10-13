@@ -28,6 +28,8 @@ input space and transform it to a higher dimensional space. It converts non-sepa
 problem to separable problem. The kernel function can be any one among linear, 
 polynomial, rbf and sigmoid. In this example, we will use the linear kernel.
 
+![image](https://user-images.githubusercontent.com/87564129/195625018-5be7212e-aecc-4f05-ad1d-a80114d2efcc.png)
+
 
 ### Hyperplane:
 There can be multiple lines/decision boundaries to segregate the classes in n-dimensional space, but we need to find out the best decision boundary that helps to classify the data points. This best boundary is known as the hyperplane of SVM.
