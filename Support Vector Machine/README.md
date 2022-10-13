@@ -17,4 +17,4 @@ classifier.
 
 Here, we are going to build an SVM classifier by using scikit-learn. Scikit-learn library has the sklearn.svm module and provides sklearn.svm.svc for classification.
 
-## SVM’s way to find the best line
+### SVM’s way to find the best line
