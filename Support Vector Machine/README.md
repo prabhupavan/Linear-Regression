@@ -21,3 +21,9 @@ Here, we are going to build an SVM classifier by using scikit-learn. Scikit-lear
 According to the SVM algorithm we find the points closest to the line from both the classes.These points are called support vectors. Now, we compute the distance between the line and the support vectors. This distance is called the margin. Our goal is to maximize the margin. The hyperplane for which the margin is maximum is the optimal hyperplane.
 
 ![image](https://user-images.githubusercontent.com/87564129/195622815-3cd025a9-c567-42c9-9af3-6b9dcc17790c.png)
+
+### Kernal:
+It is a technique used by SVM. Basically these are the functions which take low-dimensional 
+input space and transform it to a higher dimensional space. It converts non-separable
+problem to separable problem. The kernel function can be any one among linear, 
+polynomial, rbf and sigmoid. In this example, we will use the linear kernel.
