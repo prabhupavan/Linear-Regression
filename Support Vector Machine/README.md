@@ -8,7 +8,7 @@ of a particular coordinate. Here n would be the features we would have.
 
 At first approximation what SVMs do is to find a separating line(or hyperplane) between data of two classes. SVM is an algorithm that takes the data as an input and outputs a line that separates those classes if possible.
 
-![image](https://user-images.githubusercontent.com/87564129/195621612-361c08c0-96cc-4e20-9d91-f85fa7b9fa64.png)
+![image](https://user-images.githubusercontent.com/87564129/195625193-80f6f5a3-e577-4208-9c96-19c6a5f9f941.png)
 
 In the above diagram, we have two features. Hence, we first need to plot these two 
 variables in two dimensional space where each point has two co-ordinates, called support 
@@ -41,3 +41,5 @@ The dimensions of the hyperplane depend on the features present in the dataset, 
 
 ### Support Vectors:
 The data points or vectors that are the closest to the hyperplane and which affect the position of the hyperplane are termed as Support Vector. Since these vectors support the hyperplane, hence called a Support vector.
+
+![image](https://user-images.githubusercontent.com/87564129/195621612-361c08c0-96cc-4e20-9d91-f85fa7b9fa64.png)
