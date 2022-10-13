@@ -34,6 +34,8 @@ There can be multiple lines/decision boundaries to segregate the classes in n-di
 
 The dimensions of the hyperplane depend on the features present in the dataset, which means if there are 2 features (as shown in image), then hyperplane will be a straight line. And if there are 3 features, then hyperplane will be a 2-dimension plane.
 
+![image](https://user-images.githubusercontent.com/87564129/195624720-d8e3aedc-9a2e-4ca0-a3f5-b1f75f3270bb.png)
+
 
 ### Support Vectors:
 The data points or vectors that are the closest to the hyperplane and which affect the position of the hyperplane are termed as Support Vector. Since these vectors support the hyperplane, hence called a Support vector.
