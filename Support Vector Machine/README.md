@@ -10,4 +10,11 @@ At first approximation what SVMs do is to find a separating line(or hyperplane) 
 
 ![image](https://user-images.githubusercontent.com/87564129/195621612-361c08c0-96cc-4e20-9d91-f85fa7b9fa64.png)
 
+In the above diagram, we have two features. Hence, we first need to plot these two 
+variables in two dimensional space where each point has two co-ordinates, called support 
+vectors. The line splits the data into two different classified groups. This line would be the 
+classifier.
 
+Here, we are going to build an SVM classifier by using scikit-learn. Scikit-learn library has the sklearn.svm module and provides sklearn.svm.svc for classification.
+
+## SVM’s way to find the best line
