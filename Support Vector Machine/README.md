@@ -27,3 +27,13 @@ It is a technique used by SVM. Basically these are the functions which take low-
 input space and transform it to a higher dimensional space. It converts non-separable
 problem to separable problem. The kernel function can be any one among linear, 
 polynomial, rbf and sigmoid. In this example, we will use the linear kernel.
+
+
+### Hyperplane:
+There can be multiple lines/decision boundaries to segregate the classes in n-dimensional space, but we need to find out the best decision boundary that helps to classify the data points. This best boundary is known as the hyperplane of SVM.
+
+The dimensions of the hyperplane depend on the features present in the dataset, which means if there are 2 features (as shown in image), then hyperplane will be a straight line. And if there are 3 features, then hyperplane will be a 2-dimension plane.
+
+
+### Support Vectors:
+The data points or vectors that are the closest to the hyperplane and which affect the position of the hyperplane are termed as Support Vector. Since these vectors support the hyperplane, hence called a Support vector.
