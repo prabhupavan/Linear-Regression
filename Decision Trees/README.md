@@ -78,4 +78,4 @@ There are mainly 2 ways for pruning:
 
 (ii) ***Post-pruning*** – once our tree is built to its depth, we can start pruning the nodes based on their significance.
 
-![image](https://user-images.githubusercontent.com/87564129/195991846-d9487178-64fe-460a-a736-5de222816993.png)
+![image](https://user-images.githubusercontent.com/87564129/195991906-9400b968-eee8-4f06-b117-a3e38a1b60f8.png)
