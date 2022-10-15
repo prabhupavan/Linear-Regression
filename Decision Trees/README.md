@@ -22,3 +22,5 @@ It is nothing but cutting down some nodes to stop overfitting.
 
 
 ![image](https://user-images.githubusercontent.com/87564129/195990509-96c10ac1-f158-432e-875a-2612c7d5f097.png)
+
+A decision tree resembles, well, a tree. The base of the tree is the root node. From the root node flows a series of decision nodes that depict decisions to be made. From the decision nodes are leaf nodes that represent the consequences of those decisions. Each decision node represents a question or split point, and the leaf nodes that stem from a decision node represent the possible answers. Leaf nodes sprout from decision nodes similar to how a leaf sprouts on a tree branch. This is why we call each subsection of a decision tree a “branch.” 
