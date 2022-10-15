@@ -5,17 +5,17 @@ Decision trees imitate human thinking, so it’s generally easy for data scienti
 
 ![image](https://user-images.githubusercontent.com/87564129/195990383-9dd7c9c0-86fa-4537-9737-8ab06e8cd633.png)
 
-### Root Nodes: 
+### Root Nodes : 
 It is the node present at the beginning of a decision tree from this node the population starts dividing according to various features.
 
-### Decision Nodes:
+### Decision Nodes :
 The nodes we get after splitting the root nodes are called Decision Node
 
-### Leaf Nodes:
+### Leaf Nodes :
 The nodes where further splitting is not possible are called leaf nodes or terminal nodes
 
-### Sub-tree:
+### Sub-tree :
 Just like a small portion of a graph is called sub-graph similarly a sub-section of this decision tree is called sub-tree.
 
-### Pruning: 
+### Pruning : 
 It is nothing but cutting down some nodes to stop overfitting.
