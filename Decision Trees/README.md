@@ -24,3 +24,17 @@ It is nothing but cutting down some nodes to stop overfitting.
 ![image](https://user-images.githubusercontent.com/87564129/195990509-96c10ac1-f158-432e-875a-2612c7d5f097.png)
 
 A decision tree resembles, well, a tree. The base of the tree is the root node. From the root node flows a series of decision nodes that depict decisions to be made. From the decision nodes are leaf nodes that represent the consequences of those decisions. Each decision node represents a question or split point, and the leaf nodes that stem from a decision node represent the possible answers. Leaf nodes sprout from decision nodes similar to how a leaf sprouts on a tree branch. This is why we call each subsection of a decision tree a “branch.” 
+
+
+### Entropy :
+Entropy is nothing but the uncertainty in our dataset or measure of disorder. Let me try to explain this with the help of an example.
+The Mathematical formula for Entropy is as follows -
+![image](https://user-images.githubusercontent.com/87564129/195990847-3419d595-3c5a-4da6-9bf0-0e21174365ff.png)
+
+Where ‘Pi’ is simply the frequentist probability of an element/class ‘i’ in our data. For simplicity’s sake let’s say we only have two classes , a positive class and a negative class. Therefore ‘i’ here could be either + or (-). So if we had a total of 100 data points in our dataset with 30 belonging to the positive class and 70 belonging to the negative class then ‘P+’ would be 3/10 and ‘P-’ would be 7/10. Pretty straightforward.
+
+If we were to calculate the entropy of the classes in the above example using the formula above. Here’s what we would get.
+![image](https://user-images.githubusercontent.com/87564129/195990920-74e659f0-b144-4cd2-98cd-b8b589494d47.png)
+
+The entropy here is approximately 0.88. This is considered a high entropy , a high level of disorder ( meaning low level of purity). Entropy is measured between 0 and 1.
+![image](https://user-images.githubusercontent.com/87564129/195990957-bb367fab-28f9-4f9f-a7d3-5ea32adf71c0.png)
