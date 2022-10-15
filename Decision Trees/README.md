@@ -19,3 +19,6 @@ Just like a small portion of a graph is called sub-graph similarly a sub-section
 
 ### Pruning : 
 It is nothing but cutting down some nodes to stop overfitting.
+
+
+![image](https://user-images.githubusercontent.com/87564129/195990509-96c10ac1-f158-432e-875a-2612c7d5f097.png)
