@@ -29,12 +29,21 @@ A decision tree resembles, well, a tree. The base of the tree is the root node. 
 ### Entropy :
 Entropy is nothing but the uncertainty in our dataset or measure of disorder. Let me try to explain this with the help of an example.
 The Mathematical formula for Entropy is as follows -
+
 ![image](https://user-images.githubusercontent.com/87564129/195990847-3419d595-3c5a-4da6-9bf0-0e21174365ff.png)
 
 Where ‘Pi’ is simply the frequentist probability of an element/class ‘i’ in our data. For simplicity’s sake let’s say we only have two classes , a positive class and a negative class. Therefore ‘i’ here could be either + or (-). So if we had a total of 100 data points in our dataset with 30 belonging to the positive class and 70 belonging to the negative class then ‘P+’ would be 3/10 and ‘P-’ would be 7/10. Pretty straightforward.
 
 If we were to calculate the entropy of the classes in the above example using the formula above. Here’s what we would get.
+
 ![image](https://user-images.githubusercontent.com/87564129/195990920-74e659f0-b144-4cd2-98cd-b8b589494d47.png)
 
 The entropy here is approximately 0.88. This is considered a high entropy , a high level of disorder ( meaning low level of purity). Entropy is measured between 0 and 1.
+
 ![image](https://user-images.githubusercontent.com/87564129/195990957-bb367fab-28f9-4f9f-a7d3-5ea32adf71c0.png)
+
+
+### Information Gain :
+Information gain measures the reduction of uncertainty given some feature and it is also a deciding factor for which attribute should be selected as a decision node or root node.
+
+![image](https://user-images.githubusercontent.com/87564129/195991065-b5122e93-3594-4c35-bc03-aa726bf1037d.png)
