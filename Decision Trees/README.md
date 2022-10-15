@@ -60,13 +60,13 @@ Usually, real-world datasets have a large number of features, which will result 
 
 There are many ways to tackle this problem through hyperparameter tuning.
 
-We can set the maximum depth of our decision tree using the ***max_depth*** parameter. Each decision tree has a maximum number of levels permitted. max_depth represents this number.
+We can set the maximum depth of our decision tree using the ***max_depth*** parameter. Each decision tree has a maximum number of levels permitted. ***max_depth*** represents this number.
 
-Another way is to set the minimum number of samples for each spilt. It is denoted by min_samples_split. Here we specify the minimum number of samples required to do a spilt. 
+Another way is to set the minimum number of samples for each spilt. It is denoted by ***min_samples_split***. Here we specify the minimum number of samples required to do a spilt. 
 
-min_samples_leaf – represents the minimum number of samples required to be in the leaf node. The more you increase the number, the more is the possibility of overfitting.
+***min_samples_leaf*** – represents the minimum number of samples required to be in the leaf node. The more you increase the number, the more is the possibility of overfitting.
 
-max_features – it helps us decide what number of features to consider when looking for the best split. There are many ways to tackle this problem through hyperparameter tuning.
+***max_features*** – it helps us decide what number of features to consider when looking for the best split. There are many ways to tackle this problem through hyperparameter tuning.
 
 
 ### Pruning :
@@ -74,6 +74,6 @@ It is another method that can help us avoid overfitting. It helps in improving t
 
 There are mainly 2 ways for pruning:
 
-(i) Pre-pruning – we can stop growing the tree earlier, which means we can prune/remove/cut a node if it has low importance while growing the tree.
+(i) ***Pre-pruning*** – we can stop growing the tree earlier, which means we can prune/remove/cut a node if it has low importance while growing the tree.
 
-(ii) Post-pruning – once our tree is built to its depth, we can start pruning the nodes based on their significance.
+(ii) ***Post-pruning*** – once our tree is built to its depth, we can start pruning the nodes based on their significance.
