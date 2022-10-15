@@ -60,7 +60,7 @@ Usually, real-world datasets have a large number of features, which will result 
 
 There are many ways to tackle this problem through hyperparameter tuning.
 
-We can set the maximum depth of our decision tree using the max_depth parameter. Each decision tree has a maximum number of levels permitted. max_depth represents this number.
+We can set the maximum depth of our decision tree using the *max_depth* parameter. Each decision tree has a maximum number of levels permitted. max_depth represents this number.
 
 Another way is to set the minimum number of samples for each spilt. It is denoted by min_samples_split. Here we specify the minimum number of samples required to do a spilt. 
 
