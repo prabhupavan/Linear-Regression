@@ -77,3 +77,5 @@ There are mainly 2 ways for pruning:
 (i) ***Pre-pruning*** – we can stop growing the tree earlier, which means we can prune/remove/cut a node if it has low importance while growing the tree.
 
 (ii) ***Post-pruning*** – once our tree is built to its depth, we can start pruning the nodes based on their significance.
+
+![image](https://user-images.githubusercontent.com/87564129/195991846-d9487178-64fe-460a-a736-5de222816993.png)
